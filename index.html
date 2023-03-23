@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript DOM - NIOMIC</title>
+</head>
+<body>
+
+    <p id="rubahwarna">Click untuk Merubah Warna</p>
+
+    <button type="button" onclick="myFunction()">
+        Ubah Warna
+    </button>
+
+    <script type="text/javascript">
+        function myFunction() {
+            var warna = prompt("Ketikan warna yang kamu inginkan (English)","Ketikan warna (in English)")
+            if(warna != null){
+       
+                
+                document.body.style.backgroundColor = warna;
+                
+            }
+        }
+    </script>
+
+    
+</body>
+</html>
